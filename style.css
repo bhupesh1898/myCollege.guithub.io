@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    background-color: wheat;
+}
+
+.logo{
+    
+}
+
+.header {
+    padding: 5px;
+    text-align: center;
+    background: maroon;
+}
+
+.if_table{
+    font-size: 18px;
+}
+
+.activity{
+    
+}
+
+.foot_text{
+    
+}
+
+.l1{
+    margin: 25px 5% 25px 5%;
+    padding: 15px;
+    font-size: 16px;
+    border: ivory;
+    border-radius: 72px;
+    box-shadow: 0 0 20px 0 wheat;
+}
+
+.l1 a{
+    padding: 3%;
+    text-decoration: none;
+    color: wheat;
+    font-size: 21px;
+    
+}
+
+.l1 a:hover{
+    color: ivory;
+    
+}
+
+
+.activity td{
+    font-size: 16px;
+    border: maroon;
+    border-radius: 72px;
+    box-shadow: 0 -30px 60px 0 maroon; 
+}
+
+.activity td:hover{
+   
+    
+    font-size: 18px;
+    border: maroon;
+    border-radius: 72px;
+    box-shadow: 0 0 200px 0 maroon;
+    
+    
+    background-color: maroon;
+    color: ivory;
+    transition: transform 1200ms;
+    transform: scale(1.1);
+    border-radius: 72px; 
+}
+
+.activity a{
+    color: ivory;
+}
+
+.gal img{
+    width: 630px;
+    margin: 0% 0% 5% 0%;
+    /*margin-left: 11%;
+    margin-bottom: 8.4%;*/
+
+    
+    border: maroon;
+    border-radius: 72px;
+    box-shadow: 0 0 120px 0 maroon;
+
+}
+
+.gal img:hover{
+    
+    border: maroon;
+    border-radius: 72px;
+    box-shadow: 0 0 200px 0 maroon;
+    
+    
+    background-color: maroon;
+    transition: transform 1200ms;
+    transform: scale(1.2);
+    border-radius: 72px;
+}
+.mygal{
+    padding: 1%;
+    margin-top: 3px;
+}
+
+.fac{
+    
+}
+
+.fac dd{
+    padding-bottom: 1%
+}

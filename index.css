@@ -1,0 +1,115 @@
+
+.tile{
+    margin-left: 120px;
+    margin-right: 25px;
+}
+
+.tile a{
+    text-decoration: none;
+    text-align:center;
+    font-size:36px;
+    color: maroon;
+    margin: 23% auto 23% auto;
+}
+
+.tile a:hover{
+    color: wheat;
+    text-shadow:  0px 0px 15px maroon, 0px 0px 15px maroon;
+}
+
+.project-1 {
+  background-color: wheat;
+}
+
+.project-2 {
+  background-color: wheat;
+}
+
+.project-3 {
+  background-color: wheat;
+}
+
+.project-4 {
+  background-color: wheat;
+}
+
+.project-5 {
+  background-color: wheat;
+}
+
+.project-6 {
+  background-color: wheat;
+}
+
+.project-7 {
+    background-color: wheat;
+}
+
+.project-8 {
+  background-color: wheat;
+}
+
+.project-text {
+  text-align:center;
+  font-size:36px;
+  color: maroon;
+  margin: 23% auto 23% auto;
+}
+
+.project-1:hover {
+  background-color: ivory;
+}
+
+.project-2:hover {
+  background-color: ivory;
+}
+
+.project-3:hover {
+   background-color: ivory;
+}
+
+.project-4:hover {
+   background-color: ivory;
+}
+
+.project-5:hover {
+   background-color: ivory;
+}
+
+.project-6:hover {
+   background-color: ivory;
+}
+
+.project-7:hover {
+   background-color: ivory;
+}
+
+.project-8:hover {
+  background-color: ivory;
+}
+
+.column-4 {
+  float: left;
+  width: 21%;
+  padding: 10px;
+  margin:20px;
+  height: 250px;
+  box-shadow: 0 18px 54px 0 maroon;
+  border-radius: 72px;
+}
+
+.pay{
+    text-align: center;
+    margin: 1.5% 0 1.5% 0;
+    
+
+}
+
+.pay a{
+    font-weight: bold;
+    text-decoration: none; 
+    font-size: 33px;
+    color: ivory;
+    text-shadow:  0px 0px 15px maroon, 0px 0px 15px maroon;
+   
+}

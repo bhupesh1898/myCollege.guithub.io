@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>MCA | PAYMENTS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <link href="payment.css" rel="stylesheet" type="text/css"/>
+        <link rel="icon" href="image/download.jpg" >
+    </head>
+    <body style="background-color: wheat">
+        
+         <!-- logo -->
+        <div class="logo">
+            <center><img src="image/home_logo.png" alt=""  height="81" width="500"/>
+            <img src="image/dscentlogo.png" alt="" height="81" width="81" style="display: inline"/></center>
+        </div>
+        
+        <!-- header -->
+        <div class="header">
+            <h1 align="center" style="color: wheat; font-size: 40px">Department of Master of Computer Application</h1>
+            <p align="center" style="color: wheat; font-size: 20px; margin-top: -15pt">An Autonomous Institution<br>Affiliated to VTU</p>
+        
+        <!-- nav bar -->
+        <div style="text-align: center;" class="l1">
+            <a href="index.html">Home</a>
+            <a href="uiux_front.html">About</a>
+            <a href="https://www.dsce.edu.in/images/MCA/FinalScheme2020.pdf">MCA scheme</a>            
+            <a href="https://www.scrsdsce.xyz/">SCRS</a>
+            <a href="docs/22yr.pdf">Placement 2022</a>
+            <a href="uiux_query.html">Contact us</a>
+            <a href="uiux_register.html">Admission 2023</a>
+            <a href="gallary.html">Gallery</a>
+        </div>
+            
+        </div>
+        
+        <!-- payment -->
+            <div class="container">
+		<h1 class="heads">Fee Payment Portal</h1>
+                <form class="form cf">
+                    <center>
+                        <section class="plan cf">
+                                <h2 class="heads">Choose a plan</h2>
+                                <input type="radio" name="radio1" id="free" value="free"><label class="free-label four col" for="free">PGCET</label>
+                                <input type="radio" name="radio1" id="basic" value="basic" checked><label class="basic-label four col" for="basic">MANAGEMENT</label>
+                                <input type="radio" name="radio1" id="premium" value="premium"><label class="premium-label four col" for="premium">HOSTEL</label>
+                        </section>
+                        <section class="payment-plan cf">
+                                <h2 class="heads">Select a payment plan</h2>
+                                <input type="radio" name="radio2" id="monthly" value="monthly" checked><label class="monthly-label four col" for="monthly">SEMESTER</label>
+                                <input type="radio" name="radio2" id="yearly" value="yearly"><label class="yearly-label four col" for="yearly">YEARLY</label>
+                        </section>
+                        <section class="payment-type cf">
+                                <h2 class="heads">Select a payment method</h2>
+                                <input type="radio" name="radio3" id="credit" value="credit"><label class="credit-label four col" for="credit">CREDIT CARD</label>
+                                <input type="radio" name="radio3" id="debit" value="debit"><label class="debit-label four col" for="debit">DEBIT CARD</label>
+                                <input type="radio" name="radio3" id="paypal" value="paypal" checked><label class="paypal-label four col" for="paypal">UPI</label>
+                        </section> 
+                        <input class="submit" type="submit" value="PROCEED TO PAY">		
+                    </center>
+                </form>
+            </div>
+        
+        
+        <!-- footer -->
+        <div>        
+            <br><br>
+            <!-- footer -->
+            <footer style="background-color: maroon; margin-bottom: -7pt">
+                <center>
+                    <img src="image/logo_bottom.png" alt="" style="float: left; margin-left: 250pt; margin-top: 9.5pt"/>
+                </center>
+                <!-- footer_text -->
+                <div class="foot_text">
+                    <h1 align="center" style="color: wheat; font-size: 27px; text-align: right; margin-right: 200pt; padding-top: 10pt">Department of Master of Computer Application</h1>
+                    <p align="center" style="color: wheat; font-size: 15px; margin-top: -5pt; text-align: right; margin-right: 320pt; padding-bottom: 12pt">An Autonomous Institution | Affiliated to VTU</p>
+                    <p align="center" style="color: wheat; font-size: 13px; margin-top: -21pt; text-align: right; margin-right: 240pt; padding-bottom: 12pt">SHAVIGE MALLESHWARA HILLS, KUMARSWAMY LAYOUT, BANGALORE - 560 111</p>
+                </div>     
+            </footer>
+        </div>
+        
+        <script src="payment.js"></script>
+    </body>
+</html>

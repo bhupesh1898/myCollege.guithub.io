@@ -1,0 +1,44 @@
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  
+  background: wheat;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 30px 60px 0 maroon;
+  border-radius: 72px;
+
+}
+.form input {
+  outline: 0;
+  background: ivory;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 18px;
+  border-radius: 72px;
+}
+.button {
+  width: 100%;
+  padding: 15px;
+  color: maroon ;
+  font-size: 18px;
+  border-radius: 72px;
+}
+.button:hover{
+  background: maroon;
+  color: ivory;
+  box-shadow: 0 0 10px 0 maroon;
+
+}
+
+    

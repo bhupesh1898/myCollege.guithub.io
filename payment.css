@@ -1,0 +1,109 @@
+.heads{
+	font-weight: bold;;
+        color: maroon;
+        text-align: center;
+        margin: 9%;
+        font-size: 27px
+}
+
+.container h1{
+    margin-bottom: 3%;
+    font-size: 54px;
+    text-shadow:  0px 0px 15px maroon, 0px 0px 15px maroon;
+    color: ivory;
+}
+
+/* CONTAINERS */
+
+.container {max-width: 850px; width: 100%; margin: 0 auto;}
+.four { width: 32.26%; max-width: 32.26%;}
+
+
+/* COLUMNS */
+
+.col {
+  display: block;
+  float:left;
+  margin: 1% 0 1% 1.6%;
+}
+
+.col:first-of-type { margin-left: 0; }
+
+/* CLEARFIX */
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+/* FORM */
+
+.form .plan input, .form .payment-plan input, .form .payment-type input{
+	display: none;
+}
+
+.form label{
+	position: relative;
+	color: #fff;
+	background-color: maroon;
+	font-size: 26px;
+	text-align: center;
+	height: 150px;
+	line-height: 150px;
+	display: block;
+	cursor: pointer;
+        border-radius: 72px;
+	border: 3px solid transparent;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.form .plan input:checked + label, .form .payment-plan input:checked + label, .form .payment-type input:checked + label{
+	box-shadow: 0 0 60px 0 maroon;
+	background-color: ivory;
+        color: maroon;
+}
+
+.form .plan input:checked + label:after, form .payment-plan input:checked + label:after, .form .payment-type input:checked + label:after{
+	content: "\2742";
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 100%;
+	border: 2px solid #333;
+	background-color: maroon;
+        color: ivory;
+	z-index: 999;
+	position: absolute;
+	top: -10px;
+	right: -10px;
+}
+
+.submit{
+	padding: 18px 50px;	
+	border: none;
+	margin: 60px 0 20px 0;
+	background-color: ivory;
+	color: maroon;
+	font-size: 27px;
+        border-radius: 72px;
+        box-shadow: 0 0 60px 0 maroon;
+}
+
+.submit:hover{
+	cursor: pointer;
+        background-color: maroon;
+	color: ivory;
+        box-shadow: 0 30px 60px 0 maroon;
+	
+}

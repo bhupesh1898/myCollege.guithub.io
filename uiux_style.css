@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+.logo{
+    
+}
+
+.header {
+    padding: 5px;
+    text-align: center;
+    background: maroon;
+}
+
+.qform{
+    padding-top: 45px;
+    padding-bottom: 45px;
+    margin-left: 385pt;
+    margin-right: 385pt;
+    font-size: 18px;
+    border: maroon;
+    border-radius: 72px;
+    box-shadow: 0 30px 60px 0 maroon;
+    animation: 1.5s bounce infinite;
+    
+}
+
+input[type=submit] {
+  background-color: maroon;
+  color: wheat;
+  font-size: 18px;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 18px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: ivory;
+  color: maroon;
+}
+
+input[type=reset] {
+  background-color: maroon;
+  color: wheat;
+  font-size: 18px;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 18px;
+  cursor: pointer;
+}
+
+input[type=reset]:hover {
+  background-color: ivory;
+  color: maroon;
+}
+
+input[type=text] {
+  font-size: 16px;
+  background-color: ivory;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 18px;
+  cursor: pointer;
+  margin-left: 63pt
+}
+
+input[type=email] {
+  font-size: 16px;
+  background-color: ivory;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 18px;
+  cursor: pointer;
+  margin-left: 90pt;
+}
+
+textarea{
+  font-size: 16px;
+  background-color: ivory;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 18px;
+  cursor: pointer;
+}
+
+select{
+  font-size: 16px;
+  background-color: ivory;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 18px;
+  cursor: pointer;
+}
+
+.l1{
+    margin: 25px 200px 25px 200px;
+    padding: 15px;
+    font-size: 16px;
+    border: ivory;
+    border-radius: 72px;
+    box-shadow: 0 0 20px 0 wheat;
+}
+
+.l1 a{
+    padding: 3%;
+    text-decoration: none;
+    color: wheat;
+    font-size: 21px;
+    
+}
+
+.l1 a:hover{
+    color: ivory;
+}
+
+.mapouter{
+    position:relative;
+    text-align:right;
+    width:100%;
+    height:400px;
+}
+
+.gmap_canvas{overflow:hidden;
+            background:none!important;
+            width:100%;
+            height:400px;
+}
+
+.gmap_iframe{
+    border-style: none;
+    border-radius: 45px;
+    width: 72%;
+    margin-right: 14%;
+    height:400px!important; 
+}

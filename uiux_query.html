@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>MCA | Contact</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="uiux_style.css" rel="stylesheet" type="text/css"/>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <link rel="icon" href="image/download.jpg" >
+    </head>
+    <body style="background-color: wheat; font-family: Arial, Helvetica, sans-serif; font-size: 16px; margin: 0;">
+        
+        <!-- logo -->
+        <div class="logo">
+            <center><img src="image/home_logo.png" alt=""  height="81" width="500"/>
+            <img src="image/dscentlogo.png" alt="" height="81" width="81" style="display: inline"/></center>
+        </div>
+        
+        <!-- header -->
+        <div class="header">
+            <h1 align="center" style="color: wheat; font-size: 40px">Department of Master of Computer Application</h1>
+            <p align="center" style="color: wheat; font-size: 20px; margin-top: -15pt">An Autonomous Institution<br>Affiliated to VTU</p>
+        
+       <!-- nav bar -->
+        <div style="text-align: center;" class="l1">
+            <a href="index.html">Home</a>
+            <a class="active" href="uiux_front.html" style="text-align: center;">About</a>
+            <a href="https://www.dsce.edu.in/images/MCA/FinalScheme2020.pdf">MCA scheme</a>            
+            <a href="https://www.scrsdsce.xyz/">SCRS</a>
+            <a href="docs/22yr.pdf">Placement 2022</a>
+            <a href="uiux_query.html">Contact us</a>
+            <a href="uiux_register.html">Admission 2023</a>
+            <a href="gallary.html">Gallery</a>
+        </div>
+        
+        </div>
+        <br><br>
+        
+        <!-- query_form -->
+        <h1 style="text-align: center; color: maroon;">Ask your query here</h1>
+        <div class="qform" style="" align="center">
+            
+            <form action="uiux_register.html">
+                
+                
+                <label for="fname" >First Name</label>
+                <input type="text" id="fname" name="fname" required="" placeholder="First Name" pattern="[a-zA-Z]+">
+                <br><br>
+                
+                <label for="lname" >Last Name</label>
+                <input type="text" id="lname" name="lname" required="" placeholder="Last Name" pattern="[a-zA-Z]+">
+                <br><br>
+                
+                <label for="email" >E-mail</label>
+                <input type="email" id="email" name="email" required="" placeholder="E-mail">
+                <br><br>
+                
+                <label for="phone" >Mobile No.</label>
+                <input type="text" id="phone" name="phone" required="" placeholder="Mobile Number" pattern="[789][0-9]{9}" title="Enter valid phone number">
+                <br><br>
+                <br>
+      
+                <label>Gender</label>
+                <input type="radio" id="male" name="gender" value="male" checked="checked"/>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" />
+                <label for="female">Female</label>
+                <br><br><br>
+                
+                <label for="quali">Highest Qualification</label>
+                <select name="quali" id="quali" required="">
+                    <option value="BCA">BCA</option>
+                    <option value="B.Sc">B.Sc</option>
+                    <option value="B.COM">B.COM</option>
+                    <option value="BBA">BBA</option>
+                </select>
+                <br><br><br>
+                
+                <label for="query">Query</label><br><br>
+                <textarea id="query" name="query" placeholder="Ask your question..." style="height:100px; width: 450px;"></textarea>
+                <br><br>
+                
+                <input type="submit" name="submit">
+                <input type="reset" name="cancle">
+            </form>
+        </div>
+        
+        <br><br><br><br>
+        
+        <!--map-->
+        
+        <div class="mapouter" style="">
+            <div class="gmap_canvas">
+                <iframe class="gmap_iframe"   src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=dayananda sagar college of engineering&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">    
+                </iframe>
+            </div>
+        </div>  
+       
+        
+        <!-- footer -->
+        <div>        
+            <br><br>
+            <!-- footer -->
+            <footer style="background-color: maroon; margin-bottom: -7pt">
+                <center>
+                    <img src="image/logo_bottom.png" alt="" style="float: left; margin-left: 250pt; margin-top: 9.5pt"/>
+                </center>
+                <!-- footer_text -->
+                <div class="foot_text">
+                    <h1 align="center" style="color: wheat; font-size: 27px; text-align: right; margin-right: 200pt; padding-top: 10pt">Department of Master of Computer Application</h1>
+                    <p align="center" style="color: wheat; font-size: 15px; margin-top: -5pt; text-align: right; margin-right: 320pt; padding-bottom: 12pt">An Autonomous Institution | Affiliated to VTU</p>
+                    <p align="center" style="color: wheat; font-size: 13px; margin-top: -21pt; text-align: right; margin-right: 240pt; padding-bottom: 12pt">SHAVIGE MALLESHWARA HILLS, KUMARSWAMY LAYOUT, BANGALORE - 560 111</p>
+                </div>     
+            </footer>
+        </div>
+        
+    </body>
+</html>

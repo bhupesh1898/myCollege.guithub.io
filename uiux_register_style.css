@@ -1,0 +1,233 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+.logo{
+    
+}
+
+.header {
+    padding: 5px;
+    text-align: center;
+    background: maroon;
+}
+
+.l1{
+    margin: 25px 200px 25px 200px;
+    padding: 15px;
+    font-size: 16px;
+    border: ivory;
+    border-radius: 72px;
+    box-shadow: 0 0 20px 0 wheat;
+}
+
+.l1 a{
+    padding: 3%;
+    text-decoration: none;
+    color: wheat;
+    font-size: 21px;
+    
+}
+
+.l1 a:hover{
+    color: ivory;
+}
+
+
+input[type=submit] {
+  background-color: maroon;
+  color: wheat;
+  font-size: 18px;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 18px;
+  cursor: pointer;
+  margin-left:41%;
+  margin-right: 3%; 
+  margin-top: 43pt;
+}
+
+input[type=submit]:hover {
+  background-color: ivory;
+  color: maroon;
+}
+
+input[type=reset] {
+  background-color: maroon;
+  color: wheat;
+  font-size: 18px;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 18px;
+  cursor: pointer;
+}
+
+input[type=reset]:hover {
+  background-color: ivory;
+  color: maroon;
+}
+
+input[type=text] {
+  font-size: 16px;
+  background-color: ivory;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 18px;
+  cursor: pointer;
+  margin-left: 63pt
+}
+
+input[type=email] {
+  font-size: 16px;
+  background-color: ivory;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 18px;
+  cursor: pointer;
+  margin-left: 90pt;
+}
+
+
+ .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: auto;
+            width: 75vw;
+            
+            
+            padding-top: 45px;
+            padding-bottom: 45px;
+            font-size: 18px;
+            border: maroon;
+            border-radius: 72px;
+            animation: 1.5s bounce infinite;
+            
+            
+        }
+        
+        .container h1 {
+            color: rgb(59, 55, 55);
+            
+            margin-bottom: 5px;
+            color: maroon;            
+        }
+        
+        .form-wrapper {
+            margin: 15px;
+            width: 100%;
+            
+            padding-top: 45px;
+            padding-bottom: 45px;
+            font-size: 18px;
+            border: maroon;
+            border-radius: 72px;
+            box-shadow: 0 30px 60px 0 maroon;
+            animation: 1.5s bounce infinite;
+            
+           
+ 
+        }
+        
+        .form {
+            width: 90%;
+            
+            font-size: 16px;
+ 
+  
+  border-radius: 18px;
+  cursor: pointer;
+  
+            
+        }
+        
+        p {
+            color: Black;
+            font-size: 18px;
+            
+ 
+ 
+        }
+        
+        .form-item {
+            display: flex;
+            margin: auto;
+            align-items: center;
+            width: 80%;
+            font-size: 18px;
+            
+             border: none;
+  border-radius: 18px;
+  cursor: pointer;
+        }
+        
+        .form-item label {
+            width: 150px;
+            font-size: 18px;
+            
+            
+        }
+        
+        .form-item input {
+            margin: 5px 15px;
+            height: 22px;
+            width: 100%;
+            font-size: 18px;
+                      
+            border: none;
+            border-radius: 18px;
+            cursor: pointer;
+        }
+        
+        .form-item select {
+            margin: 5px 0px;
+            width: max-content;
+            font-size: 18px;
+            background-color: ivory;
+            
+             border: none;
+  border-radius: 18px;
+  cursor: pointer;
+        }
+        
+        .genders {
+            display: flex;
+            align-items: center;
+            margin-left: 16px;
+            font-size: 18px;
+            
+             border: none;
+  border-radius: 18px;
+  cursor: pointer;
+        }
+        
+        .genders input {
+            width: 20px;
+            font-size: 18px;
+            background-color: ivory;
+            
+             border: none;
+  border-radius: 18px;
+  cursor: pointer;
+        }
+        
+        hr {
+            margin-top: 15px;
+            width: 80%;
+            
+            
+        }
+        
+        h3 {
+            text-align: center;
+            color: maroon;
+        }
+        
+        input[type=number]{
+            padding-left: 2%;
+            background-color: ivory;
+        }
+        
+        

@@ -1,0 +1,28 @@
+
+.container{
+  width: 720px;
+  height: 440px;
+  margin: 3% auto 1% auto;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 40px;
+  border-radius: 72px;
+  background-color: wheat;
+  box-shadow: 0 0px 60px 0 maroon;
+  
+}
+
+.container h2{
+  text-align: center;
+}
+
+table{
+  margin: 0 auto;
+}
+
+td, th {
+  padding: 12px;
+  border: 2px solid;
+  border-radius: 5px;
+  color: maroon;
+}

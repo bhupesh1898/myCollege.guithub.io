@@ -1,0 +1,20 @@
+
+.student-info {
+    text-align: center;
+  margin: auto;
+  background-color:maroon ;
+  color: wheat;
+  width: 27%;
+  padding-top: 3%; 
+  padding-bottom: 3%;
+  border-radius: 72px;
+  box-shadow: 0 0 90px 0 maroon;
+}
+/*.student-info > p {
+  margin-bottom: 1rem;
+}
+.student-info p span {
+  font-weight: bold;
+  font-size: 1.1rem;
+}*/
+
