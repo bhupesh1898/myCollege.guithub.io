@@ -1,0 +1,42 @@
+
+#notice-table {
+  width: 100%;
+  border-top: 1px solid #d0d0d0;
+  border-collapse: collapse;
+}
+
+#notice-table caption {
+  text-align: left;
+  font-size: 20px;
+  margin: 30px 14px;
+}
+
+#notice-table th,
+#notice-table td {
+  border-bottom: 1px solid #d0d0d0;
+  padding: 0.55em 0.8em;
+  font-size: 14px;
+}
+
+#notice-table th {
+  border-bottom: none;
+  background: maroon;
+  color: ivory;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+#notice-table a {
+  color: maroon;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+#notice-table tr {
+  background: ivory;
+}
+
+#notice-table td:not(:nth-child(2)) {
+  text-align: center;
+  color: maroon;
+}
